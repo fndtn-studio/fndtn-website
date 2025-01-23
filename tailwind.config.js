@@ -9,6 +9,12 @@ export default {
       fontFamily: {
         'borel': ["Borel", "serif"],
         'work-sans': ['"Work Sans"', "serif"]
+      },
+      backgroundImage: theme => ({
+        'noise-layer': "url('./assets/noiselayer.png')"
+      }),
+      animation: {
+        "slow-spin": 'spin 10s linear infinite'
       }
     },
   },
