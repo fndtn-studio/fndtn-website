@@ -1,6 +1,6 @@
 function BackgroundGradient() {
   return (
-    <div className="z-0 animate-slow-spin grid grid-cols-3 w-[270px] h-[270px] rounded-full blur-[60px] absolute">
+    <div className="z-0 animate-slow-spin grid grid-cols-3 w-[270px] h-[270px] rounded-full blur-[60px] fixed top-1/3">
       <div className="rounded-full w-[90px] h-[90px] bg-[#6C94FC]"></div>
       <div className="rounded-full w-[90px] h-[90px] bg-[#FFA800]"></div>
       <div className="rounded-full w-[90px] h-[90px] bg-[#FAEF82]"></div>
